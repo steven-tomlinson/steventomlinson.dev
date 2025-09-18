@@ -51,10 +51,22 @@ nav ul {
   gap: 2.5rem;
 }
 
+
+/* Make all hyperlinks match h2 color, underlined, and bold */
+a, a:visited {
+  color: #f8f8ff;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+a:hover, a:active {
+  color: #ff0fa0;
+}
+
 nav a {
-  color: #0ff8;
-  text-decoration: none;
-  font-weight: 500;
+  color: #f8f8ff;
+  text-decoration: underline;
+  font-weight: bold;
   font-size: 1.1rem;
   transition: color 0.2s;
 }
