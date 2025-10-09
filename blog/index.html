@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog | Steven Tomlinson</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #e0e0e0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont;
+    }
+    a { color: #38bdf8; }
+    h1, h2, h3 { color: #f9fafb; font-weight: 600; }
+    pre, code { background-color: #1a1a1a; border-radius: 0.5rem; padding: 0.25rem 0.5rem; }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col items-center px-4 py-8">
+
+  <header class="max-w-3xl w-full mb-12 text-center">
+    <h1 class="text-4xl font-bold mb-2 text-sky-400">Steven Tomlinson — Blog</h1>
+    <p class="text-gray-400">Exploring open standards, verifiable data, and post-legal automation</p>
+  </header>
+
+  <main id="post-container" class="prose prose-invert max-w-3xl w-full"></main>
+
+  <footer class="mt-16 text-gray-500 text-sm text-center">
+    © 2025 Steven Tomlinson — Powered by Lockb0x & Pakana
+  </footer>
+
+  <script>
+    // Helper: Get the ?post= parameter (e.g., /blog/?post=2025-10-09-end-of-lawyers-lockb0x-pakana)
+    function getPostFilename() {
+      const params = new URLSearchParams(window.location.search);
+      const post = params.get("post");
+      return post ? post + ".md" : "2025-10-09-end-of-lawyers-lockb0x-pakana.md";
+    }
+
+    async function loadPost() {
+      const postFile = getPostFilename();
+      const response = await fetch(postFile);
+      if (!response.ok) {
+        document.getElementById("post-container").innerHTML = `<p class='text-red-400'>Post not found.</p>`;
+        return;
+      }
+      const markdown = await response.text();
+      const html = marked.parse(markdown);
+      document.getElementById("post-container").innerHTML = html;
+    }
+
+    loadPost();
+  </script>
+
+</body>
+</html>
