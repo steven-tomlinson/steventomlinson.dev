@@ -26,7 +26,7 @@ title: "Steven B. Tomlinson"
 
 
 ## Professional Summary
-Architect and systems integrator with 20+ years of experience delivering custom enterprise, civic, and financial solutions.<br/>
+Architect and systems integrator with 15+ years of experience delivering custom enterprise, civic, healthcare, and financial solutions.<br/>
 Expert in building applications, developer tools, and configuring, training, and deploying AI-assisted workflows.<br/>
 Highly skilled in translating business needs into scalable, maintainable software architecture and systems.<br/>
 Creator of the [lockb0x-protocol](https://www.ietf.org/archive/id/draft-tomlinson-lockb0x-00.html).<br/>
