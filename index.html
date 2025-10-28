@@ -39,6 +39,7 @@
       <!-- Latest from the Blog Teaser -->
       <div class="blog-teaser">
         <h2>Latest from the Blog</h2>
+        {% raw %}
         {% assign latest = site.posts | first %}
         {% if latest %}
           <p>
@@ -46,6 +47,7 @@
             <em>{{ latest.date | date: "%B %d, %Y" }}</em>
           </p>
         {% endif %}
+        {% endraw %}
       </div>
   </section>
 
