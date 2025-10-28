@@ -17,6 +17,7 @@
         <li><a href="mailto:steven.tomlinson@gmail.com">Email</a></li>
         <li><a href="https://github.com/steven-tomlinson">GitHub</a></li>
         <li><a href="https://linkedin.com/in/pakana">LinkedIn</a></li>
+         <li><a href="/blog/">Blog</a></li>
         <li><a href="Steven_Tomlinson_Resume_2025.docx" download>Resume PDF</a></li>
       </ul>
     </nav>
@@ -34,6 +35,18 @@
         Creator of several Stellar Community Fund awarded open-source Razor/Blazor component libraries and frameworks.<br/>
         Focused on identity, finance, and decentralized systems using the Stellar Development Foundation network and blockchain.<br/>
         Recipient of more than $250K in Stellar Community Fund and Avalanche Foundation software development grants.</p>
+    
+      <!-- Latest from the Blog Teaser -->
+      <div class="blog-teaser">
+        <h2>Latest from the Blog</h2>
+        {% assign latest = site.posts | first %}
+        {% if latest %}
+          <p>
+            <a href="{{ latest.url | relative_url }}">{{ latest.title }}</a><br>
+            <em>{{ latest.date | date: "%B %d, %Y" }}</em>
+          </p>
+        {% endif %}
+      </div>
   </section>
 
   <section id="competencies">

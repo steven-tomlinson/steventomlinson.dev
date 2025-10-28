@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <nav>
+        <a href="{{ '/' | relative_url }}">Home</a>
+        |
+        <a href="{{ '/blog/' | relative_url }}">Blog</a>
+      </nav>
+    </header>
+
+    <section>
+      {{ content }}
+    </section>
+
+    <footer>
+      <hr />
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.author }}</p>
+    </footer>
+  </main>
+</body>
+</html>
