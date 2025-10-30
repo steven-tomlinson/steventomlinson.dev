@@ -84,7 +84,7 @@ Metaverse Standard Time is more than a timestamp—it’s a declaration of indep
 By adopting MST, creators and developers aren’t just syncing clocks—they’re syncing visions.
 
 <!-- Metaverse Standard Time Converter Widget -->
-<div id="mst-widget" class="p-4 bg-gray-100 rounded-md text-sm text-gray-800" style="position:fixed;top:2em;right:2em;z-index:9999;max-width:300px;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,0.15);">
+<div id="mst-widget" class="p-4 bg-black-100 rounded-md text-sm text-gray-800" style="position:fixed;top:2em;right:2em;z-index:9999;max-width:300px;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,0.15);">
   <div class="mb-2">
     <strong>Your local time:</strong> <span id="localTime">--:--:--</span>
   </div>
