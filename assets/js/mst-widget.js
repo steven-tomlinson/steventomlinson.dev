@@ -1,5 +1,5 @@
 (function(){
-  const mstOffsetHours = 0; // Set MST offset relative to UTC here. Adjust if you pick e.g., UTC+2 => “2”
+  const mstOffsetHours = 12; // Lamina1 MST is UTC+12
   const localElem = document.getElementById("localTime");
   const mstElem   = document.getElementById("mstTime");
   const diffElem  = document.getElementById("timeDiff");
