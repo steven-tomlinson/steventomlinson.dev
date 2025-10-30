@@ -84,24 +84,15 @@ Metaverse Standard Time is more than a timestamp—it’s a declaration of indep
 By adopting MST, creators and developers aren’t just syncing clocks—they’re syncing visions.
 
 <!-- Metaverse Standard Time Converter Widget -->
-<div id="mst-widget" style="position:fixed;top:2em;right:2em;z-index:999;background:#fff;border:1px solid #ccc;padding:1em;box-shadow:0 2px 8px rgba(0,0,0,0.1);width:300px;max-width:90vw;">
-  <h3 style="margin-top:0;font-size:1.1em;">Convert Local Time to Metaverse Standard Time (MST)</h3>
-  <label for="localTime">Local Time:</label>
-  <input type="datetime-local" id="localTime" style="width:100%;margin-bottom:0.5em;">
-  <button onclick="convertToMST()" style="width:100%;">Convert</button>
-  <p id="mstResult" style="margin-top:0.5em;font-weight:bold;"></p>
-  <script>
-    function convertToMST() {
-      const localInput = document.getElementById('localTime').value;
-      if (!localInput) {
-        document.getElementById('mstResult').textContent = "Please enter a local time.";
-        return;
-      }
-      const localDate = new Date(localInput);
-      // MST is defined as UTC for this widget
-      const mstDate = new Date(localDate.getTime() + localDate.getTimezoneOffset() * 60000);
-      document.getElementById('mstResult').textContent =
-        "Metaverse Standard Time (UTC): " + mstDate.toISOString().replace('T', ' ').substring(0, 19);
-    }
-  </script>
+<div id="mst-widget" class="p-4 bg-gray-100 rounded-md text-sm text-gray-800" style="position:fixed;top:2em;right:2em;z-index:999;max-width:300px;">
+  <div class="mb-2">
+    <strong>Your local time:</strong> <span id="localTime">--:--:--</span>
+  </div>
+  <div class="mb-2">
+    <strong>MST (Metaverse Standard Time):</strong> <span id="mstTime">--:--:--</span>
+  </div>
+  <div>
+    <strong>Time difference:</strong> <span id="timeDiff">-- h -- m</span>
+  </div>
 </div>
+<script src="/assets/js/mst-widget.js"></script>
