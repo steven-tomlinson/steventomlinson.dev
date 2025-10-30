@@ -82,3 +82,26 @@ Lamina1, Stephenson’s blockchain protocol for the open metaverse, embraces MST
 Metaverse Standard Time is more than a timestamp—it’s a declaration of independence from outdated systems. As the metaverse matures, MST will become essential for building coherent, inclusive, and future-proof digital worlds.
 
 By adopting MST, creators and developers aren’t just syncing clocks—they’re syncing visions.
+
+<!-- Metaverse Standard Time Converter Widget -->
+<div id="mst-widget" style="position:fixed;top:2em;right:2em;z-index:999;background:#fff;border:1px solid #ccc;padding:1em;box-shadow:0 2px 8px rgba(0,0,0,0.1);width:300px;max-width:90vw;">
+  <h3 style="margin-top:0;font-size:1.1em;">Convert Local Time to Metaverse Standard Time (MST)</h3>
+  <label for="localTime">Local Time:</label>
+  <input type="datetime-local" id="localTime" style="width:100%;margin-bottom:0.5em;">
+  <button onclick="convertToMST()" style="width:100%;">Convert</button>
+  <p id="mstResult" style="margin-top:0.5em;font-weight:bold;"></p>
+  <script>
+    function convertToMST() {
+      const localInput = document.getElementById('localTime').value;
+      if (!localInput) {
+        document.getElementById('mstResult').textContent = "Please enter a local time.";
+        return;
+      }
+      const localDate = new Date(localInput);
+      // MST is defined as UTC for this widget
+      const mstDate = new Date(localDate.getTime() + localDate.getTimezoneOffset() * 60000);
+      document.getElementById('mstResult').textContent =
+        "Metaverse Standard Time (UTC): " + mstDate.toISOString().replace('T', ' ').substring(0, 19);
+    }
+  </script>
+</div>
