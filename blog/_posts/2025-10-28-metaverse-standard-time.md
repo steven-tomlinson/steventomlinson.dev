@@ -83,6 +83,12 @@ Metaverse Standard Time is more than a timestamp—it’s a declaration of indep
 
 By adopting MST, creators and developers aren’t just syncing clocks—they’re syncing visions.
 
+---
+
+## Converting Local Time to Metaverse Standard Time
+
+Metaverse Standard Time (MST) is set to UTC+12, providing a single, fixed reference for all metaverse participants. To convert your local time to MST, simply add 12 hours to Coordinated Universal Time (UTC). For example, if it is 8:00 PM UTC, MST will be 8:00 AM the next day. The widget below automatically performs this conversion for you, showing both your local time and the corresponding MST.
+
 <!-- Metaverse Standard Time Converter Widget -->
 <div id="mst-widget" class="p-4 rounded-md text-sm" style="position:fixed;top:2em;right:2em;z-index:9999;max-width:300px;background:#0a174e;color:#f6f6f6;box-shadow:0 2px 8px rgba(0,0,0,0.15);">
   <div class="mb-2">
