@@ -29,9 +29,12 @@ title: "Steven B. Tomlinson"
 Architect and systems integrator with 15+ years of experience delivering custom enterprise, civic, healthcare, and financial solutions.<br/>
 Expert in building applications, developer tools, and configuring, training, and deploying AI-assisted workflows.<br/>
 Highly skilled in translating business needs into scalable, maintainable software architecture and systems.<br/>
+Areas of focus include, working with Generative and Agentic AI Coding tools, identity, finance, data sovereignty, and decentralized resilient systems.<br/>
+
+
 Creator of the [lockb0x-protocol](https://www.ietf.org/archive/id/draft-tomlinson-lockb0x-00.html).<br/>
+
 Creator of several Stellar Community Fund awarded open-source Razor/Blazor component libraries and frameworks.<br/>
-Focused on identity, finance, and decentralized systems using the Stellar Development Foundation network and blockchain.<br/>
 Recipient of more than $250K in Stellar Community Fund and Avalanche Foundation software development grants.
 
 <!-- Latest from the Blog Teaser -->
