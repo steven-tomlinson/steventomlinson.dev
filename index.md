@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Steven B. Tomlinson - Software Systems Advisor"
+title: "Steven B. Tomlinson"
 ---
 
 
