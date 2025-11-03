@@ -29,7 +29,7 @@ title: "Steven B. Tomlinson"
 Architect and systems integrator with 15+ years of experience delivering custom enterprise, civic, healthcare, and financial solutions.<br/>
 Expert in building applications, developer tools, and configuring, training, and deploying AI-assisted workflows.<br/>
 Highly skilled in translating business needs into scalable, maintainable software architecture and systems.<br/>
-Areas of focus include, working with Generative and Agentic AI Coding tools, identity, finance, data sovereignty, and decentralized resilient systems.<br/>
+Areas of focus include, working with Generative and Agentic AI coding tools, Identity, FinTech, Data Sovereignty, and Decentralized Resilient Solutions.<br/>
 
 
 Creator of the [lockb0x-protocol](https://www.ietf.org/archive/id/draft-tomlinson-lockb0x-00.html).<br/>
@@ -52,7 +52,7 @@ Recipient of more than $250K in Stellar Community Fund and Avalanche Foundation 
 
 ## Core Competencies
 <ul style="background:#16213e;padding:1rem 2rem;border-radius:1rem;box-shadow:0 2px 16px #000a;">
-  <li><strong>Solutions Architecture:</strong> Full-stack systems using .NET, Razor/Blazor, Azure, PostgreSQL, Web 1/2/3.</li>
+  <li><strong>Solutions Architecture:</strong> Full-stack systems using .NET, Razor/Blazor, Azure, Azure Databases (PostgreSQL, MSSQL, SQLite, etc), Web 0/1/2/3.</li>
   <li><strong>AI Integration:</strong> Custom LLM interfaces, semi-autonomous metaverse characters, local model deployments, prompt engineering.</li>
   <li><strong>Developer Tooling:</strong> Razor/Blazor components (Stellar Identity Framework), SDK and API development, original SOLIDProject.org setup guide.</li>
   <li><strong>Collaborative Engineering:</strong> Translating stakeholder needs into software architecture, systems, workflows, and user experiences.</li>
@@ -68,7 +68,7 @@ Recipient of more than $250K in Stellar Community Fund and Avalanche Foundation 
       <ul>
         <li>Published <a href="https://github.com/lockb0x-llc" target="_blank" rel="noopener noreferrer">Stellar Identity Framework</a> and Blazor component library to simplify blockchain and authentication integration.</li>
         <li>Designed protocol (<a href="https://www.ietf.org/archive/id/draft-tomlinson-lockb0x-00.html" target="_blank" rel="noopener noreferrer">lockb0x</a>) to classify and manage private on-chain digital assets, using hash identifiers and de-identified metadata with zk-proof rollups, under UCC Article 12 rules with .NET Razor and RAG tooling.</li>
-        <li>Building a comprehensive compliance automation framework for the <strong>Pakana.net</strong> UCC compliance platform.</li>
+        <li>Building a comprehensive financial transaction automation framework for the <strong>Pakana.net</strong> UCC compliance platform.</li>
       </ul>
     </article>
 
@@ -82,7 +82,8 @@ Recipient of more than $250K in Stellar Community Fund and Avalanche Foundation 
           An open protocol for classifying, managing, and transferring private digital assets using hash identifiers and
           de-identified metadata with zk-proof rollups. Designed to comply with UCC Article 12 rules for digital assets,
           enabling secure on-chain representation of off-chain assets. Enables data sovereignty and privacy for the storage,
-          validation, and retrieval of nearly any kind of data, anywhere.
+          validation, and retrieval of nearly any kind of data, anywhere.<br/>
+          Proof of Concept here, <a target="_blank" href="https://github.com/lockb0x-llc/lockbox-codex-forge">Lockb0x Forge Chrome Broswer Extenson</a>
         </p>
         <article>
           <h3>Pakana.net</h3>
