@@ -1,13 +1,11 @@
 ---
 layout: page
-title: "Steven B. Tomlinson"
+title: "Steven B. Tomlinson - Software Systems Advisor"
 ---
 
 
 <div style="text-align:center;">
   <img src="steven-tomlinson-profile.jpeg" alt="Steven B. Tomlinson profile picture" style="width:128px;height:128px;border-radius:50%;border:3px solid #23395d;box-shadow:0 0 32px 0 #0ff8,0 2px 8px #000a;object-fit:cover;margin:2rem auto 1.2rem auto;display:block;background:#222;">
-  
-  <strong>Steven B. Tomlinson</strong>
   
   Solutions Architect | Full Stack Engineer | 15+ Years Experience
   
