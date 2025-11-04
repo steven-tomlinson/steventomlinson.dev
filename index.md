@@ -17,7 +17,7 @@ title: "Steven B. Tomlinson"
       <li><a href="https://github.com/steven-tomlinson">GitHub</a></li>
       <li><a href="https://linkedin.com/in/pakana">LinkedIn</a></li>
       <li><a href="/blog/">Blog</a></li>
-      <li><a href="Tomlinson_Steven_Enterprise_Architect_Resume" download>Resume PDF</a></li>
+      <li><a href="Tomlinson_Steven_Enterprise_Architect_Resume.pdf" target="_blank" ref="noopener">Resume PDF</a></li>
     </ul>
   </nav>
 </div>
