@@ -10,13 +10,14 @@ tags: [architecture, systems, evaluation, guest]
 
 I use various "artificial intelligence" tools in nearly every aspect of my work and day-to-day activities it seems. I started using ChatGPT in 2022, as well as experimenting with the various OpenAI tools available through Azure. 
 
-I also use the CoPilot App in Windows and on my iPhone, as well as Gemini. I've also taken formal training and completed smme certificatiosn for these platfrom's tools. Of course, GitHub CoPilot in VSCode is my constant companion during the workday. We're besties.
+I also use the CoPilot App in Windows and on my iPhone, as well as Gemini. I've also taken formal training and completed some certificatiosn for these platform's models and their tools. 
+Of course, GitHub CoPilot in VSCode is my constant companion during the workday; we're besties.
 
--- But ChatGPT knows me and my work. 
+-- which lead to --
 
 I have also been meaning to update this site amd my personal Github repo so they present a more coherent perception of the things I work on.
 
-Naturally, I asked ChatGPT about this 
+Naturally, I asked ChatGPT about this. 
 
 One suggestion was to wrie an essay on my "Architectural Philosophy". Apparently, it would help establsih authority or something. Let's just say, I'm skeptical. 
 Instead, I decided to use the ChatGPT Atlas browser, sign-in to my repo and let it write a review of my architectural approach based on what it knwos about me and the code in my repo.  
