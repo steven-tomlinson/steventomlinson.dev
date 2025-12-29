@@ -120,5 +120,6 @@ The goal is not architectural purity, but **systems teams can live with for year
     <li><a href="mailto:steven.tomlinson@gmail.com">Email</a></li>
     <li><a href="https://github.com/steven-tomlinson">GitHub</a></li>
     <li><a href="https://www.linkedin.com/in/pakana/">LinkedIn</a></li>
+    <li><a href="Full-Resume.pdf">Resume</a></li>
   </ul>
 </nav>
