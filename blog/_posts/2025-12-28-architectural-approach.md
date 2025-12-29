@@ -19,10 +19,11 @@ I have also been meaning to update this site amd my personal Github repo so they
 
 Naturally, I asked ChatGPT about this. 
 
-One suggestion was to wrie an essay on my "Architectural Philosophy". Apparently, it would help establsih authority or something. Let's just say, I'm skeptical. 
-Instead, I decided to use the ChatGPT Atlas browser, sign-in to my repo and let it write a review of my architectural approach based on what it knwos about me and the code in my repo.  
+One suggestion was to write an essay on my "Architectural Philosophy". Apparently, it would help establish authority or something. Let's just say, I'm skeptical.
 
-Here is the prompr I used.
+Instead, I decided to use the ChatGPT Atlas browser, sign-in to my repositories and let it write a review of my architectural approach based on what it knwos about me and the code in my repo.  
+
+Here is the prompt I used.
 
 'Instead of me espousing my philosophy, I want you to write a guest post as an evaluation of my architectural approach.'
 
