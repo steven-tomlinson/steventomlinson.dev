@@ -1,8 +1,9 @@
 ---
-
 layout: post
-title: "An Architectural Review of Steven Tomlinson’s Systems Approach"
+title: "An Architectural Review of Systems Approach"
 tags: [architecture, systems, evaluation, guest]
+---
+
 ------------------------------------------------
 
 - an explanation -
