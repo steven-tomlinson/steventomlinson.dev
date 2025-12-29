@@ -17,8 +17,6 @@ title: "Steven B. Tomlinson"
         display:block;
         background:#222;" />
 
-<h1 style="margin-bottom:0.25rem;">Steven B. Tomlinson</h1>
-
 <p style="font-size:1.15rem; color:#c5c6c7; margin-top:0;">
   Senior Software Solution Architect
 </p>
