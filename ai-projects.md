@@ -73,7 +73,7 @@ A Chrome Extension (Manifest V3) implementing the lockb0x protocol for creating 
 * Secure credential handling and token management
 * User-controlled data sovereignty
 
-**Note:** AI-powered metadata generation features are referenced but de-prioritized, as Chrome Built-In AI APIs are still experimental. Current implementation uses fallback text extraction.
+**Note:** AI-powered metadata generation features are referenced but deprioritized, as Chrome Built-In AI APIs are still experimental. Current implementation uses fallback text extraction.
 
 **Roadmap:**
 * Final release to Google Chrome Marketplace
