@@ -102,6 +102,25 @@ Continuing education directly informs my work in:
 * Governance of intelligent and autonomous systems
 * Long-term architectural sustainability
 
+### Active Project Applications
+
+**AI Portfolio Repository** — [steven-tomlinson/ai-portfolio](https://github.com/steven-tomlinson/ai-portfolio)
+* Certification lab projects and courseware from Google Cloud and Microsoft Azure
+* Personal experiments testing AI concepts and integration patterns
+* Hands-on implementations of agent-based systems and orchestration
+* Learning notes documenting architectural implications
+
+**Lockb0x Codex Forge** — [steven-tomlinson/lockbox-codex-forge](https://github.com/steven-tomlinson/lockbox-codex-forge)
+* Protocol-driven Chrome extension demonstrating trust boundaries and verifiable provenance
+* Applies cryptographic primitives and secure system design principles
+* Production-ready implementation awaiting Chrome Marketplace publication
+
+**Liquidity Dashboard** — [steven-tomlinson/liquidity-dashboard-](https://github.com/steven-tomlinson/liquidity-dashboard-)
+* Python/Streamlit application for DeFi analytics
+* Applies learnings from Duke University DeFi specialization to practical financial data analysis
+
+For detailed project information, see my [AI Projects & Research](/ai-projects.html) page.
+
 Learning is evaluated by **architectural impact**, not credential volume.
 
 ---
@@ -118,6 +137,7 @@ My continuing education exists to sharpen that judgment.
 <nav style="margin-top:3rem;">
 <ul style="list-style:none; padding:0; display:flex; justify-content:center; gap:2rem; flex-wrap:wrap;">
 <li><a href="/">Home</a></li>
+<li><a href="ai-projects.html">AI Projects & Research</a></li>
 </ul>
 </nav>
 
