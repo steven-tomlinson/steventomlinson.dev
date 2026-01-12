@@ -80,7 +80,7 @@ Key areas of active work:
 * **AI Portfolio & Research** — Maintaining an [active portfolio](https://github.com/steven-tomlinson/ai-portfolio) of certification labs, experiments, and reference implementations
 * **Protocol Engineering** — Building secure, verifiable systems including the [Lockb0x Codex Forge](https://github.com/steven-tomlinson/lockbox-codex-forge) Chrome extension for digital provenance
 
-These efforts are documented through formal certifications from Google Cloud and Duke University, and are applied to practical system implementations — not just theoretical exploration.
+These efforts are documented through formal certifications and coursework through Google Cloud AI certification, Microsoft Azure AI Foundry, Duke University, MIT, Berkeley and are applied to practical system implementations — not just theoretical exploration.
 
 For detailed information on certifications and coursework, see my [Continuing Education](/continuing-education.html) page.
 
