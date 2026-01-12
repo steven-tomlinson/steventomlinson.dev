@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Continuing Education"
+---
+
 ## Continuing Education
 
 Ongoing education is a professional obligation, not a career reset.
