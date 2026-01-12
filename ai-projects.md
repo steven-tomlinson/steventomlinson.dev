@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "AI Projects & Research"
+permalink: /ai-projects.html
 ---
 
 ## Overview
@@ -189,7 +190,7 @@ All projects emphasize:
 <nav style="margin-top:3rem;">
   <ul style="list-style:none; padding:0; display:flex; justify-content:center; gap:2rem; flex-wrap:wrap;">
     <li><a href="/">Home</a></li>
-    <li><a href="continuing-education.html">Continuing Education</a></li>
+    <li><a href="/continuing-education.html">Continuing Education</a></li>
     <li><a href="https://github.com/steven-tomlinson">GitHub</a></li>
   </ul>
 </nav>
