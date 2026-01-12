@@ -82,7 +82,7 @@ Key areas of active work:
 
 These efforts are documented through formal certifications from Google Cloud and Duke University, and are applied to practical system implementations — not just theoretical exploration.
 
-For detailed information on certifications and coursework, see my [Continuing Education](/continuing-education.html) page.
+For detailed information on certifications and coursework, see my [Continuing Education](/continuing-education.md) page.
 
 ---
 
