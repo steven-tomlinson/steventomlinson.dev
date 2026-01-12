@@ -67,6 +67,25 @@ I am equally comfortable working at whiteboard, codebase, and operational levels
 
 ---
 
+## AI & Emerging Technologies
+
+My recent focus includes the architectural implications of generative AI, agent-based systems, and decentralized infrastructure.
+
+I approach these domains not as consumer tools, but as **architectural forces** that alter system boundaries, governance models, and long-term sustainability.
+
+Key areas of active work:
+
+* **AI Agent Systems** — Understanding how generative and agent-based AI reshapes system design, operational boundaries, and organizational governance
+* **Decentralized Finance & Protocol Infrastructure** — Developing architectural fluency in trust models, financial primitives, and enterprise integration patterns
+* **AI Portfolio & Research** — Maintaining an [active portfolio](https://github.com/steven-tomlinson/ai-portfolio) of certification labs, experiments, and reference implementations
+* **Protocol Engineering** — Building secure, verifiable systems including the [Lockb0x Codex Forge](https://github.com/steven-tomlinson/lockbox-codex-forge) Chrome extension for digital provenance
+
+These efforts are documented through formal certifications from Google Cloud and Duke University, and are applied to practical system implementations — not just theoretical exploration.
+
+For detailed information on certifications and coursework, see my [Continuing Education](/continuing-education.html) page.
+
+---
+
 ## Architectural Philosophy
 
 I do not treat architecture as diagrams or abstractions.
@@ -93,9 +112,16 @@ They emphasize:
 * Reusable system components over one-off solutions
 * Explicit handling of identity, trust, and integration boundaries
 
-Examples include identity-aware ASP.NET application frameworks, reusable Razor component systems, and composable infrastructure intended to explore decentralized workflows responsibly — without sacrificing enterprise discipline.
+Examples include:
+* Identity-aware ASP.NET application frameworks
+* Reusable Razor component systems
+* Composable infrastructure exploring decentralized workflows responsibly
+* **AI Portfolio** — Certification labs and research implementations demonstrating agent-based systems, Azure AI integration, and architectural patterns
+* **Lockb0x Codex Forge** — Protocol-driven Chrome extension for secure, verifiable digital provenance with cryptographic proofs
 
 These projects are maintained as **living examples**, not static showcases.
+
+For detailed information on AI-related projects, see my [AI Projects & Research](/ai-projects.html) page.
 
 ---
 
@@ -118,6 +144,8 @@ The goal is not architectural purity, but **systems teams can live with for year
     <li><a href="mailto:steven.tomlinson@gmail.com">Email</a></li>
     <li><a href="https://github.com/steven-tomlinson">GitHub</a></li>
     <li><a href="https://www.linkedin.com/in/pakana/">LinkedIn</a></li>
+    <li><a href="ai-projects.html">AI Projects</a></li>
+    <li><a href="continuing-education.html">Continuing Education</a></li>
     <li><a href="Full-Resume.pdf">Full Resume</a></li>
   </ul>
 </nav>
