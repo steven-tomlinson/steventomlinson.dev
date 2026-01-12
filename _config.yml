@@ -1,6 +1,8 @@
 title: "Steven Tomlinson"
 description: "Solutions Architect • AI-Enabled Systems & Developer Platforms"
 author: "Steven Tomlinson"
+url: "https://steventomlinson.dev"
+baseurl: ""
 markdown: kramdown
 theme: minima
 
