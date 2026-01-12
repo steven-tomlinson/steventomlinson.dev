@@ -121,7 +121,7 @@ Examples include:
 
 These projects are maintained as **living examples**, not static showcases.
 
-For detailed information on AI-related projects, see my [AI Projects & Research](/ai-projects.html) page.
+For detailed information on AI-related projects, see my [AI Projects & Research](/ai-projects.md) page.
 
 ---
 
