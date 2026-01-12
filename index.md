@@ -1,8 +1,8 @@
 ---
-
 layout: page
 title: "Steven B. Tomlinson"
-----------------------------
+permalink: /
+---
 
 <div style="text-align:center; margin-top:2rem;">
 
@@ -121,7 +121,7 @@ Examples include:
 
 These projects are maintained as **living examples**, not static showcases.
 
-For detailed information on AI-related projects, see my [AI Projects & Research](/ai-projects.md) page.
+For detailed information on AI-related projects, see my [AI Projects & Research](/ai-projects.html) page.
 
 ---
 
@@ -144,8 +144,8 @@ The goal is not architectural purity, but **systems teams can live with for year
     <li><a href="mailto:steven.tomlinson@gmail.com">Email</a></li>
     <li><a href="https://github.com/steven-tomlinson">GitHub</a></li>
     <li><a href="https://www.linkedin.com/in/pakana/">LinkedIn</a></li>
-    <li><a href="ai-projects.html">AI Projects</a></li>
-    <li><a href="continuing-education.html">Continuing Education</a></li>
+    <li><a href="/ai-projects.html">AI Projects</a></li>
+    <li><a href="/continuing-education.html">Continuing Education</a></li>
     <li><a href="Full-Resume.pdf">Full Resume</a></li>
   </ul>
 </nav>
