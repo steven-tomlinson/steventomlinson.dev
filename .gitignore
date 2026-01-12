@@ -1,0 +1,18 @@
+# Jekyll build artifacts
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby/Bundler
+.bundle/
+vendor/
+
+# macOS
+.DS_Store
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+*~
