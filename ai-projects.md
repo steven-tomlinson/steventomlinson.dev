@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "AI Projects & Research"
+title: "Ongoing Projects & Research"
 permalink: /ai-projects.html
 ---
 
@@ -112,27 +112,6 @@ Completed specialization covering:
 * Enterprise integration patterns
 * Governance, risk, and value creation
 * AI application development and transformation
-
-**Credential:** [View Certificate](https://www.coursera.org/account/accomplishments/specialization/696U81I91094)
-
-### Duke University — Decentralized Finance Specialization (2022)
-
-Completed multi-course specialization covering:
-* DeFi primitives and infrastructure
-* Protocol behavior and systemic risk
-* Architectural trade-offs in decentralized systems
-* Real-world financial and regulatory considerations
-
-**Credential:** [View Certificate](https://www.coursera.org/account/accomplishments/specialization/UQ5PSDYGZG73)
-
-### Additional Coursework
-
-* AI Agent Fundamentals with Azure AI Foundry (Microsoft)
-* Gen AI: Beyond the Chatbot (Google Cloud)
-* Gen AI Agents: Transform Your Organization (Google Cloud)
-* Multiple courses on DeFi infrastructure, risk, and opportunities (Duke)
-
-For complete certification details, see my [Continuing Education](/continuing-education.html) page.
 
 ---
 

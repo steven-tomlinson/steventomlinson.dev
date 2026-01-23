@@ -3,10 +3,9 @@ layout: page
 title: "Steven B. Tomlinson"
 permalink: /
 ---
-
 <div style="text-align:center; margin-top:2rem;">
 
-<img src="steven-tomlinson-profile.jpeg"
+`<img src="steven-tomlinson-profile.jpeg"
  alt="Steven B. Tomlinson profile picture"
  style="width:140px;height:140px;
         border-radius:50%;
@@ -15,7 +14,7 @@ permalink: /
         object-fit:cover;
         margin:1.5rem auto;
         display:block;
-        background:#222;" />
+        background:#222;" />`
 
 <p style="font-size:1.15rem; color:#c5c6c7; margin-top:0;">
   Senior Software Solution Architect
@@ -31,7 +30,7 @@ permalink: /
 
 ## Overview
 
-I am a **senior software solution architect** with more than **30 years of professional experience** designing, building, modernizing, and operating complex software systems.
+I am a **senior software solution architect** with more than 20 years of professional experience** designing, building, modernizing, and operating complex software systems.
 
 My career spans enterprise platforms, developer tooling, distributed systems, data-intensive applications, and emerging decentralized infrastructure. I have worked across **Microsoft and Linux ecosystems**, from early client/server architectures through modern cloud-native and protocol-driven systems.
 
@@ -113,6 +112,7 @@ They emphasize:
 * Explicit handling of identity, trust, and integration boundaries
 
 Examples include:
+
 * Identity-aware ASP.NET application frameworks
 * Reusable Razor component systems
 * Composable infrastructure exploring decentralized workflows responsibly
@@ -121,7 +121,7 @@ Examples include:
 
 These projects are maintained as **living examples**, not static showcases.
 
-For detailed information on AI-related projects, see my [AI Projects & Research](/ai-projects.html) page.
+For detailed information on AI-related projects, see my [AI Projects &amp; Research](/ai-projects.html) page.
 
 ---
 
