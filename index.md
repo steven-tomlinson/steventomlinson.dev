@@ -1,20 +1,11 @@
 ---
 layout: page
-title: "Steven B. Tomlinson"
+title: "Solution Architect"
 permalink: /
 ---
 <div style="text-align:center; margin-top:2rem;">
 
-`<img src="steven-tomlinson-profile.jpeg"
- alt="Steven B. Tomlinson profile picture"
- style="width:140px;height:140px;
-        border-radius:50%;
-        border:3px solid #23395d;
-        box-shadow:0 0 32px #0ff8, 0 2px 8px #000a;
-        object-fit:cover;
-        margin:1.5rem auto;
-        display:block;
-        background:#222;" />`
+`<img src="steven-tomlinson-profile.jpeg"  alt="Steven B. Tomlinson profile picture"  style="width:140px;height:140px;         border-radius:50%;         border:3px solid #23395d;         box-shadow:0 0 32px #0ff8, 0 2px 8px #000a;         object-fit:cover;         margin:1.5rem auto;         display:block;         background:#222;" />`
 
 <p style="font-size:1.15rem; color:#c5c6c7; margin-top:0;">
   Senior Software Solution Architect
@@ -30,11 +21,11 @@ permalink: /
 
 ## Overview
 
-I am a **senior software solution architect** with more than 20 years of professional experience** designing, building, modernizing, and operating complex software systems.
+I am a **software solution architect** with more than 20 years of professional experience** designing, building, modernizing, and operating complex software systems.
 
 My career spans enterprise platforms, developer tooling, distributed systems, data-intensive applications, and emerging decentralized infrastructure. I have worked across **Microsoft and Linux ecosystems**, from early client/server architectures through modern cloud-native and protocol-driven systems.
 
-What distinguishes my work is not familiarity with tools, but **architectural judgment** — knowing which decisions matter, when they matter, and how long teams will live with them.
+What distinguishes my work is not familiarity with tools, but **architectural judgment** — knowing which decisions matter, when they matter, and how teams will live with them.
 
 ---
 
