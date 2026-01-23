@@ -9,5 +9,3 @@ tags: [self, intro, blog]
 - **Code:** posts on verifiable systems, identity, and decentralized infra  
 - **World:** transmissions from the Node_Zero / Whispering Code universe  
 - **Self:** notes on focus, craft, and staying small with intent
-
-Expect one post per week, rotating pillars, plus occasional hybrid essays.
