@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Solution Architect"
+title: "Senior Full-stack Engineer"
 permalink: /
 ---
 <div style="text-align:center; margin-top:2rem;">
@@ -8,24 +8,28 @@ permalink: /
 `<img src="steven-tomlinson-profile.jpeg"  alt="Steven B. Tomlinson profile picture"  style="width:140px;height:140px;         border-radius:50%;         border:3px solid #23395d;         box-shadow:0 0 32px #0ff8, 0 2px 8px #000a;         object-fit:cover;         margin:1.5rem auto;         display:block;         background:#222;" />`
 
 <p style="font-size:1.15rem; color:#c5c6c7; margin-top:0;">
-  Senior Software Solution Architect
+  Senior Software Solution Architect and Engineer
 </p>
 
-<p style="font-size:1rem; color:#9fa1a3;">
+ `<p style="font-size:1rem; color:#9fa1a3;">`
   Las Vegas, NV
+
 </p>
 
 </div>
+
 
 ---
 
 ## Overview
 
-I am a **software solution architect** with more than 20 years of professional experience** designing, building, modernizing, and operating complex software systems.
+I am a **software solution architect and full-stack engineer** with more than 20 years of professional experience** designing, building, modernizing, and operating complex software systems.
 
 My career spans enterprise platforms, developer tooling, distributed systems, data-intensive applications, and emerging decentralized infrastructure. I have worked across **Microsoft and Linux ecosystems**, from early client/server architectures through modern cloud-native and protocol-driven systems.
 
 What distinguishes my work is not familiarity with tools, but **architectural judgment** — knowing which decisions matter, when they matter, and how teams will live with them.
+
+[Full Resume](Full-Resume.md)
 
 ---
 

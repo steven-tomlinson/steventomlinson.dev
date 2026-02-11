@@ -66,6 +66,7 @@ TThese courses focus on **agent orchestration, decision boundaries, enterprise i
 
 * **AI Agent Fundamentals with Azure AI Foundry** — Microsoft
   [https://www.coursera.org/account/accomplishments/records/VRUAF511HPQN](https://www.coursera.org/account/accomplishments/records/VRUAF511HPQN)
+* **AI AgentFoundry Building Intelligent Agent Workflows** — Microsoft [https://www.coursera.org/account/accomplishments/records/7L2UXZQSA2VE](https://www.coursera.org/account/accomplishments/records/7L2UXZQSA2VE)
 
 ### Google Gemini
 
