@@ -3,7 +3,6 @@ layout: page
 title: "Ongoing Projects & Research"
 permalink: /ai-projects.html
 ---
-
 ## Overview
 
 My AI-focused work emphasizes **architectural understanding** over tool fluency — exploring how generative AI, agent-based systems, and intelligent automation alter system design, governance, and long-term sustainability.
@@ -14,6 +13,7 @@ Rather than building consumer-facing demos, I focus on:
 * Security and trust boundaries in AI-enabled systems
 * Integration of AI components into enterprise architectures
 * Practical application of formal AI education to real-world systems
+* Model, Tool, and MCP Server selection, implementation and Usage strategies
 
 ---
 
@@ -33,12 +33,14 @@ A structured portfolio containing:
 * **Learning Notes** — Observations on architectural implications of AI systems
 
 **Technologies:**
+
 * Azure AI Services and Azure OpenAI Service
 * Azure Bot Service and Azure Functions
 * HTML/CSS/JavaScript for portfolio presentation
 * VS Code with GitHub Copilot
 
 **Focus Areas:**
+
 * AI agent architecture and orchestration
 * Azure AI Foundry certification path
 * Safe, secure implementation patterns
@@ -55,6 +57,7 @@ A structured portfolio containing:
 A Chrome Extension (Manifest V3) implementing the lockb0x protocol for creating secure, verifiable Codex Entries from web content or user-uploaded files.
 
 **Key Features:**
+
 * Complete lockb0x protocol implementation (UUID generation, SHA-256 hashing, ni-URI encoding, JSON canonicalization, ES256 signing)
 * Zip archive workflow with dual-signature verification
 * Google Drive integration for secure anchor storage
@@ -63,12 +66,14 @@ A Chrome Extension (Manifest V3) implementing the lockb0x protocol for creating 
 * Encrypted zip archiving with verifiable provenance
 
 **Technologies:**
+
 * JavaScript (Manifest V3 Chrome Extension)
 * Google Drive API and OAuth2 authentication
 * Cryptographic primitives (SHA-256, ES256)
 * JSON Web Keys (JWK) and JSON canonicalization (RFC 8785)
 
 **Architectural Focus:**
+
 * Trust boundaries and verifiable digital provenance
 * Protocol-driven system design
 * Secure credential handling and token management
@@ -77,6 +82,7 @@ A Chrome Extension (Manifest V3) implementing the lockb0x protocol for creating 
 **Note:** AI-powered metadata generation features are referenced but deprioritized, as Chrome Built-In AI APIs are still experimental. Current implementation uses fallback text extraction.
 
 **Roadmap:**
+
 * Final release to Google Chrome Marketplace
 * Fork for Microsoft Edge and OneDrive integration
 * Enhanced testing infrastructure and integration tests
@@ -92,6 +98,7 @@ A Chrome Extension (Manifest V3) implementing the lockb0x protocol for creating 
 A Python-based Streamlit application for decentralized finance analytics and liquidity monitoring.
 
 **Technologies:**
+
 * Python and Streamlit
 * Data visualization and analytics
 
@@ -107,6 +114,7 @@ All project work is grounded in formal education:
 ### Google Cloud — Generative AI Leader Specialization (2025)
 
 Completed specialization covering:
+
 * Organizational adoption of generative AI
 * Agent-based system architecture
 * Enterprise integration patterns
@@ -130,12 +138,14 @@ My AI and protocol work follows consistent principles:
 ## Tools & Methodologies
 
 ### Development Environment
+
 * VS Code with GitHub Copilot
 * Azure services and Google Cloud Platform
 * Chrome DevTools for extension development
 * Git and GitHub for version control
 
 ### Architectural Approach
+
 * Reference architectures over one-off solutions
 * Explicit decision boundaries and failure modes
 * Protocol-driven design where appropriate

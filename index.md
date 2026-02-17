@@ -13,10 +13,11 @@ permalink: /
 
  `<p style="font-size:1rem; color:#9fa1a3;">`
   Las Vegas, NV
-
-[**Full Resume**](Full-Resume.md)
-
 </p>
+
+#[**Full Resume**](Full-Resume.md)
+
+
 
 </div>
 
@@ -117,7 +118,7 @@ Examples include:
 
 These projects are maintained as **living examples**, not static showcases.
 
-For detailed information on AI-related projects, see my [AI Projects &amp; Research](/ai-projects.html) page.
+For detailed information on AI-related projects, see my [AI Projects &amp; Research](ai-projects.md) page.
 
 ---
 
