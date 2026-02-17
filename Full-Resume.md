@@ -5,7 +5,7 @@ Las Vegas, NV | steven.tomlinson@gmail.com |
 
 Hands-on Full Stack Developer with 20+ years of experience delivering and maintaining enterprise .NET applications across finance, healthcare, government, and SaaS environments. Strong background in C\#, ASP.NET MVC/Core, SQL Server, and front-end technologies, with a practical, delivery-focused approach to building, supporting, and improving production systems.
 
-**Core Skil**ls  
+**Core Skills**
 **Enterprise Tools and Skills**
 
 * DotNet: C\#, [**VB.NET**](http://VB.NET)**,** ASP.NET MVC & **ASP.NET Core**  
