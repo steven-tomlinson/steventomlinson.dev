@@ -14,7 +14,8 @@ permalink: /
   Las Vegas, NV
 </p>
 
-[Full Resume](Full-Resume.md)
+<a class="hero-link" href="Full-Resume.md">Full Resume</a>
+</div>
 
 ---
 
