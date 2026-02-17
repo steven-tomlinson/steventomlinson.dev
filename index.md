@@ -14,8 +14,7 @@ permalink: /
   Las Vegas, NV
 </p>
 
-<a class="hero-link" href="Full-Resume.md">Full Resume</a>
-</div>
+[Full Resume](Full-Resume.md)
 
 ---
 
@@ -27,7 +26,6 @@ My career spans enterprise platforms, developer tooling, distributed systems, da
 
 What distinguishes my work is not familiarity with tools, but **architectural judgment** — knowing which decisions matter, when they matter, and how teams will live with them.
 
-[Full Resume](Full-Resume.md)
 
 ---
 
