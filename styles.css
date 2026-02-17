@@ -9,12 +9,14 @@ body {
 .hero {
   text-align: center;
   margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-profile-pic {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
+  width: 112px;
+  height: 144px;
+  border-radius: 50% / 60%;
   border: 3px solid #23395d;
   box-shadow: 0 0 32px 0 #0ff8, 0 2px 8px #000a;
   object-fit: cover;
@@ -155,8 +157,8 @@ strong {
     height: 80px;
   }
   .hero-profile-pic {
-    width: 110px;
-    height: 110px;
+    width: 92px;
+    height: 118px;
   }
   h1 {
     font-size: 1.5rem;
