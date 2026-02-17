@@ -3,22 +3,18 @@ layout: page
 title: "Senior Full-stack Engineer"
 permalink: /
 ---
-<div style="text-align:center; margin-top:2rem;">
+<div class="hero">
+  <img class="hero-profile-pic" src="steven-tomlinson-profile.jpeg" alt="Steven B. Tomlinson profile picture" />
 
-`<img src="steven-tomlinson-profile.jpeg"  alt="Steven B. Tomlinson profile picture"  style="width:140px;height:140px;         border-radius:50%;         border:3px solid #23395d;         box-shadow:0 0 32px #0ff8, 0 2px 8px #000a;         object-fit:cover;         margin:1.5rem auto;         display:block;         background:#222;" />`
-
-<p style="font-size:1.15rem; color:#c5c6c7; margin-top:0;">
+<p class="hero-title">
   Senior Software Solution Architect and Engineer
 </p>
 
- `<p style="font-size:1rem; color:#9fa1a3;">`
+<p class="hero-location">
   Las Vegas, NV
 </p>
 
-<a href="Full-Resume.md">Full Resume</a>
-
-
-
+<a class="hero-link" href="Full-Resume.md">Full Resume</a>
 </div>
 
 ---
