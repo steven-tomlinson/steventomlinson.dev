@@ -3,15 +3,18 @@ Las Vegas, NV | steven.tomlinson@gmail.com |
 [steventomlinson.dev](http://steventomlinson.dev)  
 [github.com/steven-tomlinson](http://github.com/steven-tomlinson) | [https://github.com/lockb0x-llc](https://github.com/lockb0x-llc) 
 
-Hands-on Full Stack Developer with 20+ years of experience delivering and maintaining enterprise .NET applications across finance, healthcare, government, and SaaS environments. Strong background in C\#, ASP.NET MVC/Core, SQL Server, and front-end technologies, with a practical, delivery-focused approach to building, supporting, and improving production systems.Core Skills
+Hands-on Full Stack Developer with 20+ years of experience delivering and maintaining enterprise .NET applications across finance, healthcare, government, and SaaS environments. Strong background in C\#, ASP.NET MVC/Core, SQL Server, and front-end technologies, with a practical, delivery-focused approach to building, supporting, and improving production systems.
 
-**Enterprise .NET Stack & Data Access**
+**Core Skil**ls  
+**Enterprise Tools and Skills**
 
-* C\#, **VB.NET**, ASP.NET MVC & **ASP.NET Core**  
-* **ADO.NET**, **LINQ**, **Entity Framework Core**, **Dapper**  
+* DotNet: C\#, [**VB.NET**](http://VB.NET)**,** ASP.NET MVC & **ASP.NET Core**  
+* **ADO.NET**, **LINQ**, **Entity Framework Core**  
+* AI Prompt Engineering, Agent Instruction and Rule Management, AI Tool and MCP Server implementation and strategic use.   
+* Model selection based on requirements, task, and context.   
 * RESTful Web APIs, SOAP services, background services  
 * **Microsoft SQL Server**, **Azure SQL Database**, stored procedures, indexing, query optimization  
-* **Oracle Database** exposure including **PL/SQL** (reporting, integrations, legacy systems)  
+* **PostgreSQL Database** experience including **PL/SQL** (reporting, integrations, legacy systems)  
 * **Visual Studio 2015–2022**, Azure DevOps / **TFS**  
 * **Windows Services**, **Windows Task Scheduler**
 
@@ -19,21 +22,23 @@ Hands-on Full Stack Developer with 20+ years of experience delivering and mainta
 
 * **HTML5**, CSS3, JavaScript (ES5/ES6)  
 * **jQuery** for DOM manipulation, AJAX workflows, and legacy UI support  
-* **Bootstrap 3 & 5** for responsive enterprise UI design  
-* Blazor and React for modern SPA development
+* **Bootstrap 3 & 5 and Tailwind CSS** for responsive enterprise UI design  
+* Blazor or React for modern SPA development
 
 **Quality & Delivery**
 
 * **Test-Driven Development (TDD)** and unit testing practices (xUnit / MSTest) for maintainable codebases.  
+* Experienced with all versions of Microsf tVisual Studio, Visual Studio Code, Google Antigravity IDE, MS-SQL and PostrgeSQL cloud or om-premises administration  and development.  
 * Experience writing and maintaining automated tests integrated into **CI/CD pipelines**.  
 * Strong focus on code maintainability, documentation, and long-term system support.
 
 **Other Technical Capabilities**
 
-* Full Stack Engineering: Python, Node.js, Docker, REST & GraphQL  
-* AI/ML & Data: LLM fine-tuning, RAG pipelines, multimodal data architecture  
-* Infrastructure & DevOps: Azure, Linux VMs, CI/CD, Terraform  
-* Leadership & Product: CTO/Founder experience, Agile team management
+* Full Stack Engineering: DotNet, C\#, Razor/MVC, T-SQL/PLSQL, NoSQL, Python, Node.js, Docker, REST & GraphQL  
+* AI/ML & Data: LLM fine-tuning, RAG pipelines, multimodal agent use.  
+* ID and CLI AI Agent Workflow Development using Specification-Driven and Test-Audited iterative techniques.  
+* AI Agent Tool and MCP Server selection and implementation.   
+* Infrastructure & DevOps: Azure, Linux VMs, CI/CD, Terraform
 
 Recent Projects
 
@@ -62,9 +67,10 @@ Experience
 * **9/2018 \- 2/2022** \- Developed Three Lock Box, a lien-release and disbursement application built with DotNet Razor, PostgreSQL, and deployed to Azure App Service via GitHub CI/CD.  Performed query optimization and performance tuning for high-volume datasets to maintain system performance and stability.  
 * **10/2017 \- 5/2018** \- Optum (United Healthcare) Enterprise Business Intelligence Architect. Delivered several data-driven MSB and Excel-based SharePoint dashboard components. Maintained and enhanced existing MS SQL Server Stored Procedures, Views, and Report Queries. Configured enterprise data sources within enterprise policies and procedures.  
 * **6/2015 \- 6/2016** Alogent \- Core banking software GL and Accounts migration and ETL engineer. Developed specifications and built enterprise data migration environments for credit unions and banks to implement Alogent's Azure DotNet Core Banking Software. Developed custom ETL applications using [VB.NET](http://VB.NET) for each client to implement data clean-up, normalization, and migrations and integrations across Microsoft SQL Server, PostgreSQL, Oracle systems, including **PL/SQL** or T-SQL as needed.  
-* **10/2010 \- 6/2015** Various Consulting Project:  
-  * Elevate Digital \- opened a Las Vegas satellite office for Chicago-based digital media company. LEad project to implement smart-city technologies for Caesars properties. Built and deployed a network of free-standing interactive, touch-screen kiosks across The Linq, Paris, Flamingo, and Bally’s resorts on the Las Vegas Strip. Developed integratins with Facebook and twitter to allow people to take a selfie using the kiosk which would insert a custom background and post to social media. Developed a [VB.NET](http://VB.NET) and MS-SQL Server driven Hote; Check-In Touch-Screen Kiosk for The Linq. It allowed arriving guests to scan their ID or passport, then it would look up their reservation in the hotel reservation system, offer to add upgrades and amenities, then encode a plastic room key-card and dispense it.  
+* **10/2010 \- 6/2015** Various Consulting Projects:  
+  * Elevate Digital \- opened a Las Vegas satellite office for Chicago-based digital media company. LEad project to implement smart-city technologies for Caesars properties. Built and deployed a network of free-standing interactive, touch-screen kiosks across The Linq, Paris, Flamingo, and Bally’s resorts on the Las Vegas Strip. Developed integrations with Facebook and twitter to allow people to take a selfie using the kiosk which would insert a custom background and post to social media. Developed a [VB.NET](http://VB.NET) and MS-SQL Server driven Hotel; Check-In Touch-Screen Kiosk for The Linq. It allowed arriving guests to scan their ID or passport, then it would look up their reservation in the hotel reservation system, offer to add upgrades and amenities, then encode a plastic room key-card and dispense it.  
 * **8/2009 \- 9/2010** URS (E.G\&G.) – Enterprise Database Administrator. Migrated several disparate stand-alone legacy enterprise applications in a high-security sensitive national defense-sensitive environment (TS-SCI) into a new MS-SQL Server 2008 R2 Enterprise database cluster and schema for the enterprise CostPoint implementation. Included implementation of Cognos BI reporting features, and integration of enterprise report templates. Migration and development of site-specific Excel and other types of custom reports to Cognos BI Reports.  
+* **1/2009 \- 8/2009** \- Furniture Expressions \- Developed master template website and backing data layer using C\# and T-SQL to build a platform powering 9 online furniture e-commerce sites.   
 * **9/2007 \- 12/2008** \- Opened and operated a beachfront breakfast and barbecue café in Laie, Honolulu, Hawaii. Built a custom point-of-sale and inventory system using [VB.NET](http://VB.NET) and MS-Access.  
 * **1/2004 \- 8/2007** \- Worked with a team of retired engineers and the Department of Veteran Affairs in a federal technology transfer program. Highlights include porting the VA's VistA/CPRS Electronic Healthcare Records from its proprietary MUMPS implementation to open-source GT.M and released OpenVista, a full-featured open-source Electronic Healthcare Record System. Developed several other applications using VB 6 for use by administrative and clinical staff. For example, an early foot-switch activated video otoscope image capture program.  
 * **1/2003 \- 12/2003 \-** State of Hawaii Department of Commerce and Consumer Affairs \- Forensic Investigator III. Worked with Department Leadership to define and develop a set of tools for analyzing business filings and flag specific anomalies, disallowed filers, etc. Developed document scanning operations to allow clerks to OCR filed documents then verify the data before committing the record to the database and saving the scanned image to a CD storage array (jukebox). Used MS-SQL Server and VB5/6.  

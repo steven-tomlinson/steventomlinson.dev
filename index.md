@@ -14,10 +14,11 @@ permalink: /
  `<p style="font-size:1rem; color:#9fa1a3;">`
   Las Vegas, NV
 
+[**Full Resume**](Full-Resume.md)
+
 </p>
 
 </div>
-
 
 ---
 
