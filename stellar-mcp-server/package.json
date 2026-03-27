@@ -1,0 +1,32 @@
+{
+  "name": "stellar-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server providing agent access to Stellar Network, Horizon API, Soroban SDK documentation, release notes, and community best practices",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "mcp",
+    "stellar",
+    "soroban",
+    "horizon",
+    "blockchain",
+    "documentation"
+  ],
+  "author": "Steven Tomlinson",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.28.0",
+    "node-fetch": "3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.14",
+    "tsx": "4.21.0",
+    "typescript": "5.8.2"
+  }
+}

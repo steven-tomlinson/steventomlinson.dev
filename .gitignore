@@ -16,3 +16,7 @@ vendor/
 *.swp
 *.swo
 *~
+
+# MCP Server build artifacts and dependencies
+stellar-mcp-server/node_modules/
+stellar-mcp-server/dist/
