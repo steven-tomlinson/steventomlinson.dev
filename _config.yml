@@ -15,8 +15,7 @@ permalink: /:categories/:year/:month/:day/:title/
 
 # Microsoft Clarity — paste your project ID once you create the project at
 # https://clarity.microsoft.com. Leave blank to disable Clarity (e.g. on forks).
-clarity_project_id: ""
-
+clarity_project_id: "weqgr6h7hi"
 nav:
   - title: "Home"
     url: "/"
