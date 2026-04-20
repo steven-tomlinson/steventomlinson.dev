@@ -18,6 +18,32 @@
       } catch (e) {}
     })();
   </script>
+
+  {%- if site.clarity_project_id and site.clarity_project_id != "" -%}
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "{{ site.clarity_project_id }}");
+
+    // Tag each session with the active A/B/C theme so Clarity can filter/segment.
+    (function () {
+      function tagTheme() {
+        try {
+          var theme = document.documentElement.getAttribute('data-theme') || 'slate-copper';
+          if (window.clarity) {
+            window.clarity('set', 'theme', theme);
+          }
+        } catch (e) {}
+      }
+      tagTheme();
+      // Re-tag when the user switches themes (see footer switcher).
+      document.addEventListener('themechange', tagTheme);
+    })();
+  </script>
+  {%- endif -%}
 </head>
 <body>
   <main class="container">
@@ -64,6 +90,7 @@
           root.setAttribute('data-theme', current);
           try { localStorage.setItem('st_theme', current); } catch (e) {}
           sync();
+          document.dispatchEvent(new CustomEvent('themechange', { detail: current }));
         });
       });
       sync();
