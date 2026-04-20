@@ -12,7 +12,7 @@ plugins:
   - jekyll-feed
 
 permalink: /:categories/:year/:month/:day/:title/
-
+clarity_project_id: "your_id_here"
 nav:
   - title: "Home"
     url: "/"
