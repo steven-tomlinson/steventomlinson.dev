@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" role="img" aria-label="Isometric system architecture: identity, protocol, and data layers">
+  <defs>
+    <linearGradient id="layerGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="currentColor" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="currentColor" stop-opacity="0.02"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+  </defs>
+
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" color="var(--ink-2)">
+    <!-- Isometric grid faint -->
+    <g opacity="0.18" stroke-width="0.6">
+      <path d="M40 140 L260 20 L480 140 L260 260 Z"/>
+      <path d="M40 220 L260 100 L480 220 L260 340 Z"/>
+      <path d="M40 300 L260 180 L480 300 L260 420 Z"/>
+    </g>
+
+    <!-- Layer 3: Data (bottom) -->
+    <g opacity="0.85">
+      <path d="M40 300 L260 180 L480 300 L260 420 Z" fill="url(#layerGrad)" stroke-width="1"/>
+      <!-- grid lines on layer -->
+      <g opacity="0.45" stroke-dasharray="2 3" stroke-width="0.7">
+        <path d="M150 240 L370 360"/>
+        <path d="M370 240 L150 360"/>
+        <path d="M260 210 L260 390"/>
+      </g>
+      <!-- nodes -->
+      <circle class="iso-node iso-node-3" cx="150" cy="300" r="5" fill="currentColor" stroke="none" style="color: var(--accent);"/>
+      <circle class="iso-node iso-node-3" cx="260" cy="360" r="5" fill="currentColor" stroke="none" style="color: var(--accent);"/>
+      <circle class="iso-node iso-node-3" cx="370" cy="300" r="5" fill="currentColor" stroke="none" style="color: var(--accent);"/>
+    </g>
+
+    <!-- Layer 2: Protocol (middle) -->
+    <g opacity="0.9">
+      <path d="M70 205 L260 100 L450 205 L260 310 Z" fill="url(#layerGrad)" stroke-width="1.1"/>
+      <g opacity="0.6" stroke-dasharray="2 3" stroke-width="0.7">
+        <path d="M170 155 L350 255"/>
+        <path d="M350 155 L170 255"/>
+      </g>
+      <circle class="iso-node iso-node-2" cx="170" cy="205" r="5" fill="currentColor" stroke="none" style="color: var(--highlight);"/>
+      <circle class="iso-node iso-node-2" cx="260" cy="155" r="6" fill="currentColor" stroke="none" style="color: var(--accent);"/>
+      <circle class="iso-node iso-node-2" cx="350" cy="205" r="5" fill="currentColor" stroke="none" style="color: var(--highlight);"/>
+      <circle class="iso-node iso-node-2" cx="260" cy="255" r="5" fill="currentColor" stroke="none" style="color: var(--highlight);"/>
+    </g>
+
+    <!-- Layer 1: Identity (top) -->
+    <g opacity="0.95">
+      <path d="M110 120 L260 40 L410 120 L260 200 Z" fill="url(#layerGrad)" stroke-width="1.2"/>
+      <circle class="iso-node" cx="260" cy="120" r="7" fill="currentColor" stroke="none" style="color: var(--accent);"/>
+      <circle class="iso-node" cx="185" cy="120" r="4" fill="currentColor" stroke="none" style="color: var(--highlight);"/>
+      <circle class="iso-node" cx="335" cy="120" r="4" fill="currentColor" stroke="none" style="color: var(--highlight);"/>
+    </g>
+
+    <!-- Connecting vertical beams between layers -->
+    <g stroke-width="1" style="color: var(--accent);" stroke="currentColor">
+      <line class="iso-line" x1="260" y1="120" x2="260" y2="155"/>
+      <line class="iso-line" x1="260" y1="155" x2="260" y2="360"/>
+      <line class="iso-line" x1="185" y1="120" x2="170" y2="205"/>
+      <line class="iso-line" x1="335" y1="120" x2="350" y2="205"/>
+      <line class="iso-line" x1="170" y1="205" x2="150" y2="300"/>
+      <line class="iso-line" x1="350" y1="205" x2="370" y2="300"/>
+    </g>
+
+    <!-- Layer labels -->
+    <g font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" letter-spacing="1.2" fill="currentColor" stroke="none" style="color: var(--ink-2);">
+      <text x="420" y="118" opacity="0.75">IDENTITY</text>
+      <text x="455" y="210" opacity="0.65">PROTOCOL</text>
+      <text x="485" y="305" opacity="0.55">DATA</text>
+    </g>
+
+    <!-- Corner registration marks -->
+    <g stroke-width="0.8" style="color: var(--accent);" stroke="currentColor" opacity="0.7">
+      <path d="M8 8 L18 8 M8 8 L8 18"/>
+      <path d="M512 8 L502 8 M512 8 L512 18"/>
+      <path d="M8 412 L18 412 M8 412 L8 402"/>
+      <path d="M512 412 L502 412 M512 412 L512 402"/>
+    </g>
+    <g font-family="'JetBrains Mono', ui-monospace, monospace" font-size="7" letter-spacing="1.5" fill="currentColor" stroke="none" style="color: var(--ink-3);">
+      <text x="22" y="12" opacity="0.7">SYS-ARCH // REV.26</text>
+      <text x="22" y="410" opacity="0.5">trust · integrity · longevity</text>
+    </g>
+  </g>
+</svg>
