@@ -2,9 +2,10 @@
 layout: default
 ---
 <article class="post">
+  <p class="section-eyebrow">Essay · {{ page.date | date: "%b %Y" }}</p>
   <h1>{{ page.title }}</h1>
   <p><em>{{ page.date | date: "%B %d, %Y" }}</em></p>
-  {{ content | safe }}
+  {{ content }}
   <hr />
   <p><a href="{{ '/blog/' | relative_url }}">← Back to Blog</a></p>
 </article>

@@ -1,31 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="slate-copper">
 <head>
   <meta charset="UTF-8" />
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   {% seo %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,650&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <script>
+    // Persist theme preference (A/B/C) for lightweight testing
+    (function () {
+      try {
+        var t = localStorage.getItem('st_theme');
+        if (t) document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+
+  {%- if site.clarity_project_id and site.clarity_project_id != "" -%}
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "{{ site.clarity_project_id }}");
+
+    // Tag each session with the active A/B/C theme so Clarity can filter/segment.
+    (function () {
+      function tagTheme() {
+        try {
+          var theme = document.documentElement.getAttribute('data-theme') || 'slate-copper';
+          if (window.clarity) {
+            window.clarity('set', 'theme', theme);
+          }
+        } catch (e) {}
+      }
+      tagTheme();
+      // Re-tag when the user switches themes (see footer switcher).
+      document.addEventListener('themechange', tagTheme);
+    })();
+  </script>
+  {%- endif -%}
 </head>
 <body>
   <main class="container">
-    <header>
-      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-      <nav>
-        <a href="{{ '/' | relative_url }}">Home</a>
-        |
-        <a href="{{ '/blog/' | relative_url }}">Blog</a>
+    <header class="site-header">
+      <div class="brand">
+        <span class="dot" aria-hidden="true"></span>
+        <a href="{{ '/' | relative_url }}">Steven&nbsp;Tomlinson</a>
+        <span aria-hidden="true">·</span>
+        <span>Systems&nbsp;Architect</span>
+      </div>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
+        <a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog' %} aria-current="page"{% endif %}>Blog</a>
+        <a href="https://github.com/steven-tomlinson" rel="me noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/pakana/" rel="me noopener">LinkedIn</a>
       </nav>
     </header>
 
-    <section>
-      {{ content }}
-    </section>
+    {{ content }}
 
-    <footer>
-      <hr />
-      <p>&copy; {{ site.time | date: "%Y" }} {{ site.author }}</p>
+    <footer class="site-footer">
+      <span class="mono">© {{ site.time | date: "%Y" }} {{ site.author }} · Las Vegas, NV</span>
+      <span class="theme-switch" role="group" aria-label="Color theme">
+        <button type="button" data-theme-key="slate-copper" aria-pressed="true" title="Slate + Copper">A</button>
+        <button type="button" data-theme-key="indigo-cyan" aria-pressed="false" title="Indigo + Cyan">B</button>
+        <button type="button" data-theme-key="charcoal-phosphor" aria-pressed="false" title="Charcoal + Phosphor">C</button>
+      </span>
     </footer>
   </main>
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+      var current = root.getAttribute('data-theme') || 'slate-copper';
+      var buttons = document.querySelectorAll('.theme-switch button');
+      function sync() {
+        buttons.forEach(function (b) {
+          b.setAttribute('aria-pressed', b.dataset.themeKey === current ? 'true' : 'false');
+        });
+      }
+      buttons.forEach(function (b) {
+        b.addEventListener('click', function () {
+          current = b.dataset.themeKey;
+          root.setAttribute('data-theme', current);
+          try { localStorage.setItem('st_theme', current); } catch (e) {}
+          sync();
+          document.dispatchEvent(new CustomEvent('themechange', { detail: current }));
+        });
+      });
+      sync();
+    })();
+  </script>
 </body>
 </html>
